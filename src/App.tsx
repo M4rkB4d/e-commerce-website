@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import ItemDisplayPage from './pages/ItemDisplayPage';
 import LoginPage from './pages/LoginPage';
-
-import HelloWorld from './components/HellowWorld';
+import LandingPage from './pages/LandingPage';
 
 function App(): JSX.Element {
   return (
@@ -21,7 +20,7 @@ function App(): JSX.Element {
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<HelloWorld name={'Mother Fucker'}></HelloWorld>} />
+          <Route path="/" element={<LandingPage name={"Mark"}></LandingPage>} />
           <Route path="/items" element={<ItemDisplayPage />} />
           <Route path='/login' element={<LoginPage /> } />
         </Routes>
