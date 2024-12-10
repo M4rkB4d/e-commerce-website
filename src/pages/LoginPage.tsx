@@ -64,7 +64,7 @@ const LoginPage: React.FC = () => {
       <ReusableForm 
       fields={formFields} 
       buttons={buttons} 
-      // secondRowButtons={secondRowButtons}
+      secondRowButtons={secondRowButtons}
       onSubmit={handleFormSubmit} 
       />
     </div>
